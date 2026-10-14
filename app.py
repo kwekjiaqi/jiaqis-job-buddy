@@ -68,12 +68,10 @@ if upload is not None:
 cv_hash = hashlib.sha256(cv_text.encode("utf-8")).hexdigest()
 st.subheader("1 · AI read the CV")
 if st.button("AI extract CV profile", disabled=not bool(ai_key)):
-    try:
-        with st.spinner("Extracting CV characteristics with source evidence…"):
-            st.session_state.ai_profile = parse_cv(ai_key, cv_text, provider=provider)
-            st.session_state.ai_profile_hash = (cv_hash, provider)
-    except Exception:
-        st.error("Could not extract the CV profile. Check AI access and try again.")
+    # We remove the try/except loop to force Streamlit to show us the REAL error trace!
+    with st.spinner("Extracting CV characteristics with source evidence…"):
+        st.session_state.ai_profile = parse_cv(ai_key, cv_text, provider=provider)
+        st.session_state.ai_profile_hash = (cv_hash, provider)
 profile = st.session_state.get("ai_profile", {}) if st.session_state.get("ai_profile_hash") == (cv_hash, provider) else {}
 if profile:
     st.caption("AI extracted these details from the CV. Items without an exact CV quote are omitted; edit the search filters below.")
