@@ -4,7 +4,7 @@ import json
 from urllib.request import Request, urlopen
 
 
-MODEL = "gemini-1.5-flash"
+MODEL = "gemini-2.5-flash"
 ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
 
