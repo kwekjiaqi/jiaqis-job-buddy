@@ -1,0 +1,9 @@
+[
+  {"name":"strong fit","title":"AI Consultant","category":"AI","description":"Python and SQL. 4+ years of experience.","salary":"$120k - $160k","cv":"6 years; Python and SQL projects.","years":6,"minimum_usd":110000,"expected":"Apply"},
+  {"name":"wrong function","title":"AI Engineer","category":"AI","description":"Python and SQL. 4+ years of experience.","salary":"$120k - $160k","cv":"6 years; Python and SQL projects.","years":6,"minimum_usd":110000,"expected":"Skip"},
+  {"name":"wrong domain","title":"Healthcare Consultant","category":"Healthcare","description":"Python and SQL. 4+ years of experience.","salary":"$120k - $160k","cv":"6 years; Python and SQL projects.","years":6,"minimum_usd":110000,"expected":"Skip"},
+  {"name":"years below requirement","title":"AI Consultant","category":"AI","description":"Python and SQL. 7+ years of experience.","salary":"$120k - $160k","cv":"Python and SQL projects.","years":4,"minimum_usd":110000,"expected":"Skip"},
+  {"name":"pay below minimum","title":"AI Consultant","category":"AI","description":"Python and SQL. 4+ years of experience.","salary":"$75k - $95k","cv":"Python and SQL projects.","years":6,"minimum_usd":110000,"expected":"Skip"},
+  {"name":"missing pay","title":"AI Consultant","category":"AI","description":"Python and SQL. 4+ years of experience.","salary":"","cv":"Python and SQL projects.","years":6,"minimum_usd":110000,"expected":"Review"},
+  {"name":"low skill coverage","title":"AI Consultant","category":"AI","description":"Python, SQL and RAG. 4+ years of experience.","salary":"$120k - $160k","cv":"Workshop facilitator with analytics experience.","years":6,"minimum_usd":110000,"expected":"Review"}
+]

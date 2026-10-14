@@ -1,0 +1,6 @@
+[
+  {"name":"overlapping salary","title":"AI Advisory Consultant","category":"AI","description":"SQL and Python. 5+ years of experience.","salary":"$95k - $130k","cv":"Worked with SQL and Python.","years":6,"minimum_usd":110000,"expected":"Review"},
+  {"name":"foreign currency remains unknown","title":"AI Consultant","category":"AI","description":"Python and SQL. 5+ years of experience.","salary":"SGD 140k to 180k","cv":"Used Python and SQL.","years":6,"minimum_usd":110000,"expected":"Review"},
+  {"name":"unspecified experience","title":"AI Consultant","category":"AI","description":"Work with Python and SQL in customer projects.","salary":"$120k - $160k","cv":"Used Python and SQL.","years":6,"minimum_usd":110000,"expected":"Review"},
+  {"name":"location and source are not invented","title":"AI Consultant","category":"AI","description":"Python and SQL. 3+ years of experience.","salary":"$120k - $160k","cv":"Used Python and SQL.","years":6,"minimum_usd":110000,"expected":"Apply"}
+]
