@@ -1,3 +1,4 @@
+import google.generativeai as genai
 import csv
 import hashlib
 import hmac
